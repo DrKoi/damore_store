@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <title>Hello, world!</title>
+    <title>Tienda Pelo pelao</title>
   </head>
   <body>
     <header>
@@ -22,8 +22,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="{{route('home')}}">Agregar Consola</a>
-                  <a class="nav-link" href="{{route('ver_consolas')}}">Ver Consolas</a>
+                  <a class="nav-link active" aria-current="page" href="{{route('home')}}">Inicio</a>
+                  <a class="nav-link" href="{{route('ver_consolas')}}">Productos</a>
                   <a class="nav-link" href="{{route('ver_juegos')}}">Ver Juegos</a>
                   <a class="nav-link" href="{{route('agregar_juego')}}">Agregar Juegos</a>
                   
