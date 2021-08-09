@@ -14,8 +14,8 @@
                         <input type="text" id="nombre-txt" class="form-control">
                     </div>
                     <div class="mb-3">
-                        <label for="categoria-select" class="form-label">Categoría</label>
-                        <select class="form-select" id="categoria-select">
+                        <label for="categorias-select" class="form-label">Categoría</label>
+                        <select class="form-select" id="categorias-select">
                         </select>
                     </div>
                     <div class="mb-3">
@@ -44,9 +44,6 @@
     </div>
 
 @endsection
-<!-- Esto define el contenido de la seccion javascript del master -->
 @section("javascript")
-    <script src="{{asset('js/servicios/consolasService.js')}}"></script>
-    <script src="{{asset('js/servicios/marcasService.js')}}"></script>
     <script src="{{asset('js/home.js')}}"></script>
 @endsection

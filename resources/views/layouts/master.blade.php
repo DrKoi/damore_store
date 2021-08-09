@@ -40,7 +40,6 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{asset('js/axios_config.js')}}"></script>
-    <!-- Esto define una seccion que se va a llamar javascript -->
     @yield("javascript")
 
   </body>
