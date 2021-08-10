@@ -5,7 +5,7 @@
     <div class="row mt-5">
         <div class="col-12 col-md-6 col-lg-5 mx-auto">
             <div class="card">
-                <div class="card-header bg-warning text-white">
+                <div class="card-header bg-success text-white">
                     <span>Agregar Productos</span>
                 </div>
                 <div class="card-body">
@@ -45,5 +45,6 @@
 
 @endsection
 @section("javascript")
+    <script src="{{asset('js/servicios/productosServicios.js')}}"></script>
     <script src="{{asset('js/home.js')}}"></script>
 @endsection

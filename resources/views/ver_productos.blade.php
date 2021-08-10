@@ -20,9 +20,9 @@
                 <thead class="bg-info">
                     <tr>
                         <td>Nombre</td>
-                        <td>Marca</td>
-                        <td>Año de Lanzamiento</td>
-                        <td>Acciones</td>
+                        <td>Categorias</td>
+                        <td>Cantidad</td>
+                        <td>Precio</td>
                     </tr>
                 </thead>
                 <tbody id="tbody-consola">

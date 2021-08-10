@@ -21,12 +21,15 @@ class ControllerProductos extends Controller
         return $productos;
     }
 
-    public function crearProducto(){
+    public function crearProducto(Request $request){
+
+        $input = $request->all();
         $producto = new Producto();
-        $producto->nobmre = "Mascara Mayonessa";
-        $producto->categoria = "Máscaras";
-        $producto->precio = 8900;
+        $producto->nobmre = $input["nombre"];
+        $producto->categoria = $input["categoria"];
+        $producto->precio = $input["precio"];
 
         $producto->save();
+        return $producto;
     }
 }

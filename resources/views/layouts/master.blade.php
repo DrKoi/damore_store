@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <nav class="navbar navbar-expand-lg navbar-light bg-blue">
             <div class="container-fluid">
               <a class="navbar-brand" href="{{route('home')}}">
                 <img class="logo" src="{{asset('img/logo.png')}}" />
@@ -23,10 +23,7 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="{{route('home')}}">Inicio</a>
-                  <a class="nav-link" href="{{route('ver_consolas')}}">Productos</a>
-                  <a class="nav-link" href="{{route('ver_juegos')}}">Ver Juegos</a>
-                  <a class="nav-link" href="{{route('agregar_juego')}}">Agregar Juegos</a>
-                  
+                  <a class="nav-link" href="{{route('ver_productos')}}">Productos</a>
                 </div>
               </div>
             </div>
