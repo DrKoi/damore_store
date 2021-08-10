@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="{{route('home')}}">
                 <img class="logo" src="{{asset('img/logo.png')}}" />

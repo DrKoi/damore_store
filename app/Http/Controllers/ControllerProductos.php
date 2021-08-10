@@ -25,10 +25,12 @@ class ControllerProductos extends Controller
 
         $input = $request->all();
         $producto = new Producto();
-        $producto->nobmre = $input["nombre"];
+        $producto->nombre = $input["nombre"];
         $producto->categoria = $input["categoria"];
         $producto->precio = $input["precio"];
-
+        $producto->cantidad = $input["cantidad"];
+        $producto->img = $input["img"];
+        $producto->descr = $input["descr"];
         $producto->save();
         return $producto;
     }

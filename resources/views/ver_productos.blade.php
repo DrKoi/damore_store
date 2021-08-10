@@ -17,7 +17,7 @@
     <div class="row mt-5">
         <div class="col-12 col-md-12 col-lg-6 mx-auto">
             <table class="table table-hover table-bordered table-striped table-responsive">
-                <thead class="bg-info">
+                <thead class="bg-warning">
                     <tr>
                         <td>Nombre</td>
                         <td>Categorias</td>
